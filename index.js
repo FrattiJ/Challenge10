@@ -53,11 +53,6 @@ const questions = () => {
             name: 'test', 
             message: 'What command should be run to run tests?',
             default: 'npm test'
-        },
-        {
-            type: 'input',
-            name: 'questions',
-            message: 'What are some frequently asked questions regarding your app?'
         }
     ]);
     };
